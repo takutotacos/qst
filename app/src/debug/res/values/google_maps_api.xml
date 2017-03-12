@@ -1,0 +1,25 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=12:A7:8F:DC:6D:5D:B8:B1:2E:0A:1F:0B:9C:94:99:5F:10:B8:2A:C8%3Bramstalk.co.jp.project.ramstalk.co.jp.project.activity
+
+    You can also add your credentials to an existing key, using this line:
+    12:A7:8F:DC:6D:5D:B8:B1:2E:0A:1F:0B:9C:94:99:5F:10:B8:2A:C8;ramstalk.co.jp.project.ramstalk.co.jp.project.activity
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyAPQgLrviezS8Phw0oKzPQ47tu6G-7Z4FM
+        <!-- TODO: google map api key needed
+            ・APIの取得に際して、色々なモードがあるらしい。（例、デバッグモード）
+            →アプリを公開するにはデバッグモードじゃない方がセキュリティ的にいいらしい。って書いてあったから、そこを調べてもらって、都合の良い奴を取得してほしい。
+         -->
+    </string>
+</resources>

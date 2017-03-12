@@ -1,0 +1,48 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 17357210 Realtime: 17357210
+
+** MEMINFO in pid 16884 [ramstalk.co.jp.project] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    33727    33656        0        0    56320    51862     4457
+  Dalvik Heap    92611    92312        0        0   101715    97619     4096
+ Dalvik Other     3200     3200        0        0                           
+        Stack     1568     1568        0        0                           
+       Ashmem      130      128        0        0                           
+    Other dev        8        0        8        0                           
+     .so mmap     2341      136      732        0                           
+    .apk mmap     6395      104     3628        0                           
+    .ttf mmap      245        0      132        0                           
+    .dex mmap    19451      384    17352        0                           
+    .oat mmap     5092        0     2444        0                           
+    .art mmap     5492     5172       20        0                           
+   Other mmap     1617        4     1328        0                           
+      Unknown     2318     2316        0        0                           
+        TOTAL   174195   138980    25644        0   158035   149481     8553
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    97504
+         Native Heap:    33656
+                Code:    24912
+               Stack:     1568
+            Graphics:        0
+       Private Other:     6984
+              System:     9571
+ 
+               TOTAL:   174195       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:      557         ViewRootImpl:        8
+         AppContexts:       12           Activities:       10
+              Assets:        6        AssetManagers:        5
+       Local Binders:       58        Proxy Binders:       44
+       Parcel memory:       17         Parcel count:       77
+    Death Recipients:        1      OpenSSL Sockets:        3
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 

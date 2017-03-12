@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Qst!</string>
+
+    <!-- Strings related to login -->
+    <string name="login_prompt_email">メールアドレス</string>
+    <string name="login_prompt_password">パスワード</string>
+    <string name="login_sign_in">ログイン</string>
+    <string name="error_field_required">この欄は入力必須です。</string>
+    <string name="login_remember_me">パスワードを覚える</string>
+    <string name="login_signup_link"><a href="#">新規登録</a></string>
+    <string name="login_logo">ログイン</string>
+    <string name="login_failed">メールアドレスとパスワードの組み合わせが正しくありません。</string>
+
+    <!-- Strings related to components -->
+    <string name="logout_button">Logout</string>
+
+    <!-- Strings related to 各画面のタイトル -->
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_show_image">ShowImage</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_posting">PostingActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_add_following">AddFollowingActivity</string>
+    <string name="title_activity_followings_list">FollowingsListActivity</string>
+    <string name="title_activity_followers_list">FollowersListActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_time_line">TimeLineActivity</string>
+
+    <!-- Strings related to main -->
+    <string name="button_to_map">MapActivity</string>
+    <string name="button_to_posting">PostingActivity</string>
+
+    <!-- Strings related to 投稿作成画面 -->
+    <string name="posting_spinner_categories_text">投稿内容のカテゴリを選択してください</string>
+
+    <!-- Strings related to ユーザ登録画面 -->
+    <string name="error_invalid_userId">ユーザIDが不正です。</string>
+    <string name="error_userId_exist">このユーザIDは使用されています。</string>
+    <string name="error_email_exist">このメールアドレスは使用されています。</string>
+    <string name="error_invalid_email">メールアドレスが不正です。</string>
+    <string name="error_invalid_passwordConfirm">パスワード確認欄の値が不正です。</string>
+    <string name="error_invalid_passwordConfirm_not_match">パスワードが一致しません。</string>
+    <string name="regist_failed">ユーザ登録に失敗しました。</string>
+    <string name="error_invalid_password">パスワードが短すぎます。</string>
+    <string name="login_signin_link"><a href="#">ログイン</a></string>
+    <string name="error_422">指定したユーザIDもしくはメールアドレスは使用されています。</string>
+
+    <!-- Strings related to FB SDK -->
+    <string name="facebook_app_id">375174456178755</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings related to footer -->
+    <string name="footer_map">地図</string>
+    <string name="footer_notification">通知</string>
+    <string name="footer_home">設定</string>
+    <string name="footer_timeline">一覧</string>
+    <string name="footer_making_a_posting">投稿</string>
+
+    <!-- Strings related to ホーム画面 -->
+    <string name="follower">Followers</string>
+    <string name="following">Followings</string>
+    <string name="user_id">ユーザID</string>
+
+    <!-- Strings related to ユーザフォロー画面 -->
+    <string name="user_not_exists">ユーザが見つかりません。</string>
+    <string name="user_add_success">フォローしました。</string>
+
+    <!-- Strings related to 投稿画面 -->
+    <string name="likes">Likes</string>
+    <string name="comments">Comments</string>
+    <string name="comment_here">コメントを入力してください</string>
+    <string name="comment_button">コメントする</string>
+
+    <!-- Strings related to 通知画面 -->
+    <string name="notification_notified_by_id">Someone</string>
+    <string name="notification_posting_id">あなたの投稿に</string>
+    <string name="notification_notice_type_like">「いいね」しました。</string>
+    <string name="notification_notice_type_comment">「コメント」しました。</string>
+    <string name="notification_created_at">at some time</string>
+    <string name="title_activity_show_comment_list">ShowCommentListActivity</string>
+</resources>
